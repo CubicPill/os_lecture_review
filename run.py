@@ -21,7 +21,7 @@ def main():
 
    print('Select file: (0 to exit)')
    for index, rtf_file in enumerate(rtf_files):
-      print('{} {}'.format(index, rtf_file))
+      print('{} {}'.format(index + 1, rtf_file))
    try:
       selection = int(input('\n'))
    except:
